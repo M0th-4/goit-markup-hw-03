@@ -4,6 +4,22 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -12,6 +28,11 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15;
+    margin: 0 auto;
+}
 .webstudio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,10 +42,35 @@ ul {
     color: #4d5ae5;
     text-transform: uppercase;
 }
+
 .web-color {
     color: #2e2f42;
 }
 
+.head-address {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hpage {
+    display: flex;
+}
+.head-title {
+    display: flex;
+    margin: auto;
+    margin-left: 76px;
+    gap: 40px;
+}
+
+.head-title-link {
+    display: flex;
+    gap: 40px;
+}
 .head-nav {
     font-weight: 500;
         font-size: 16px;
@@ -57,6 +103,7 @@ ul {
 
 .order {
     background-color: #2e2f42;
+    padding: 188px 316px 292px 316px;
 }
 
 .order-title {
@@ -66,7 +113,12 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+         margin-bottom: 48px;
+        
 }
+
 
 .order-btn {
     cursor: pointer;
@@ -76,11 +128,43 @@ ul {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        min-width: 169px;
+        min-height: 56px;
+        border-radius: 4px;
+        border: none;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
 }
 
 .order-btn:focus,
 .order-btn:hover {
     background: #404bbf;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.description {
+    display: flex;
+    gap: 24px;
+}
+
+.description-list {
+width: calc((100% - 72px) /4);
 }
 
 .advg-title {
@@ -91,6 +175,15 @@ ul {
         color: #2e2f42;
 }
 
+.advg {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.advg-title {
+margin-bottom: 8px;
+}
+
 .advg-text {
     font-weight: 400;
         font-size: 16px;
@@ -98,9 +191,12 @@ ul {
         letter-spacing: 0.02em;
         color: #434455;
 }
- 
+
 .workers {
+    min-width: 1440px;
+    min-height: 732px;
     background-color: #F4F4FD
+    
 }
 
 .workers-title {
@@ -111,13 +207,21 @@ ul {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-bottom: 72px;
+        padding-top: 120px;
 }
 
 .workers-list {
-    background-color: #FFFFFF
+    display: flex;
+   gap: 16px 32px;
 }
 
 .workers-inform {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    width: calc((100% - 72px) /4);
     background-color: #FFFFFF
 }
 
@@ -139,6 +243,7 @@ ul {
         color: #434455;
 }
 
+
 .portf-title {
     font-weight: 700;
         font-size: 36px;
@@ -147,6 +252,20 @@ ul {
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-bottom: 72px;
+            padding-top: 120px;
+
+}
+
+.port-list {
+display: flex;
+gap: 24px;
+}
+
+.portf-inform {
+display: flex;
+flex-wrap: wrap;
+width: calc((100% - 144px) /6);
 }
 
 .portf-name {
