@@ -9,8 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-    integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -36,14 +36,11 @@
 </header>
 <main>
     <section class="order">
-      <div class="container effectivesol">
-           <div class="order-section">
+      <div class="container">
                 <h1 class="order-title">Effective Solutions
                 for Your Business</h1>
-                <div class="order-button"><button class="order-btn" type="button">Order Service</button></div>
+                <button class="order-btn" type="button">Order Service</button>
             </div>
-    
-      </div class="container">
     </section>
     <section class="advg">
        <div class="container">
@@ -78,34 +75,42 @@
                     <img src="./images/img-mark.jpg" 
                      width="264" height="260"
                     alt="Mark ProductD">
-                    <h3 class="workers-name">Mark Guerrero</h3>
-                    <p class="workers-position">Product Designer</p>
+                    <div class="employee">
+                        <h3 class="workers-name">Mark Guerrero</h3>
+                        <p class="workers-position">Product Designer</p>
+                    </div>
                 </li>
                 <li class="workers-inform">
                     <img src="./images/img-ford.jpg" 
                      width="264" height="260"
                     alt="Tom FrontendD">
-                    <h3 class="workers-name">Tom Ford</h3>
-                    <p class="workers-position">Frontend Developer</p>
+                    <div class="employee">
+                        <h3 class="workers-name">Tom Ford</h3>
+                        <p class="workers-position">Frontend Developer</p>
+                    </div>
                 </li>
                 <li class="workers-inform">
                     <img src="./images/img-camila.jpg" 
                      width="264" height="260"
                     alt="Camila Marketing">
-                    <h3 class="workers-name">Camila Garcia</h3>
-                    <p class="workers-position">Marketing</p>
+                    <div class="employee">
+                        <h3 class="workers-name">Camila Garcia</h3>
+                        <p class="workers-position">Marketing</p>
+                    </div>
                 </li>
                 <li class="workers-inform">
                     <img src="./images/img-daniel.jpg" 
                      width="264" height="260"
                     alt="Daniel UI">
-                    <h3 class="workers-name">Daniel Wilson</h3>
-                    <p class="workers-position">UI Designer</p>
+                    <div class="employee">
+                        <h3 class="workers-name">Daniel Wilson</h3>
+                        <p class="workers-position">UI Designer</p>
+                    </div>
                 </li>
             </ul>
        </div class="container">
     </section>
-    <section>
+    <section class="portfolio">
         <div class="container">
             <h2 class="portf-title"> Our Portfolio</h2>
             <ul class="port-list">
@@ -113,43 +118,55 @@
                     <img src="./images/img-bankingapp.jpg"
                     width="360" height="300"
                     alt="bankapp">
-                    <h3 class="portf-name">Banking App</h3>
-                    <p class="portf-text">App</p>
+                    <div class="portf-description">
+                        <h3 class="portf-name">Banking App</h3>
+                        <p class="portf-text">App</p>
+                    </div>
                 </li>
                 <li class="portf-inform">
                     <img src="./images/img-cashpayment.jpg"
                     width="360" height="300"
                     alt="cashp">
-                        <h3 class="portf-name">Cashless Payment</h3>
-                            <p class="portf-text">Marketing</p>
+                        <div class="portf-description">
+                            <h3 class="portf-name">Cashless Payment</h3>
+                                <p class="portf-text">Marketing</p>
+                        </div>
                 </li>
                 <li class="portf-inform">
                     <img src="./images/img-mediapp.jpg"
                     width="360" height="300"
                     alt="medi">
-                        <h3 class="portf-name">Meditation App</h3>
-                            <p class="portf-text">App</p>
+                        <div class="portf-description">
+                            <h3 class="portf-name">Meditation App</h3>
+                                <p class="portf-text">App</p>
+                        </div>
                 </li>
                 <li class="portf-inform">
                     <img src="./images/img-taxiservice.jpg"
                     width="360" height="300"
                     alt="taxi">
-                        <h3 class="portf-name">Taxi Service</h3>
-                            <p class="portf-text">Marketing</p>
+                        <div class="portf-description">
+                            <h3 class="portf-name">Taxi Service</h3>
+                                <p class="portf-text">Marketing</p>
+                        </div>
                 </li>
                 <li class="portf-inform">
                     <img src="./images/img-scrillustrations.jpg"
                     width="360" height="300"
                     alt="screenill">
-                        <h3 class="portf-name">Screen Illustrations</h3>
-                            <p class="portf-text">Design</p>
+                        <div class="portf-description">
+                            <h3 class="portf-name">Screen Illustrations</h3>
+                                <p class="portf-text">Design</p>
+                        </div>
                 </li>
                 <li class="portf-inform">
                     <img src="./images/img-onlinecourses.jpg"
                     width="360" height="300"
                     alt="onlinec">
-                        <h3 class="portf-name">Online Courses</h3>
-                            <p class="portf-text">Marketing</p>
+                        <div class="portf-description">
+                            <h3 class="portf-name">Online Courses</h3>
+                                <p class="portf-text">Marketing</p>
+                        </div>
                 </li>
             </ul>
         </div class="container">
