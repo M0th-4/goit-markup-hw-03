@@ -45,7 +45,7 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
-    margin-right: 76px
+
 }
 
 .web-color {
@@ -129,6 +129,10 @@ border-bottom: 1px solid #e7e9fc
         
 }
 
+.cont-button {
+    display: flex;
+        justify-content: center;
+}
 
 .order-btn {
     cursor: pointer;
@@ -212,7 +216,6 @@ margin-bottom: 8px;
         color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 72px;
-        padding-top: 120px;
 }
 
 .workers-list {
@@ -330,5 +333,8 @@ width: calc((100% - 48px) /3);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #f4f4fd;  
+        color: #f4f4fd;
+        display: block;
+        width: 264px;
+        height: 72px;
 }
